@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB67BBA31B724E2C00E40F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67BBA21B724E2C00E40F09 /* main.m */; };
+		AB67BBA61B724E2C00E40F09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67BBA51B724E2C00E40F09 /* AppDelegate.m */; };
+		AB67BBAE1B724E2C00E40F09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB67BBAD1B724E2C00E40F09 /* Images.xcassets */; };
+		AB67BBB11B724E2C00E40F09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB67BBAF1B724E2C00E40F09 /* LaunchScreen.xib */; };
+		AB67BBBD1B724E2C00E40F09 /* VRSlidingPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67BBBC1B724E2C00E40F09 /* VRSlidingPickerTests.m */; };
+		AB67BBE11B725F8800E40F09 /* VRCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67BBDF1B725F8800E40F09 /* VRCollectionViewCell.m */; };
+		AB67BBE21B725F8800E40F09 /* VRCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB67BBE01B725F8800E40F09 /* VRCollectionViewCell.xib */; };
+		AB67BBE51B725FD600E40F09 /* VRCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67BBE41B725FD600E40F09 /* VRCollectionView.m */; };
+		AB67BBE91B72600C00E40F09 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB67BBE71B72600C00E40F09 /* MainViewController.m */; };
+		AB67BBEA1B72600C00E40F09 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB67BBE81B72600C00E40F09 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB67BBB71B724E2C00E40F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB67BB951B724E2C00E40F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB67BB9C1B724E2C00E40F09;
+			remoteInfo = VRSlidingPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB67BB9D1B724E2C00E40F09 /* VRSlidingPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRSlidingPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB67BBA11B724E2C00E40F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB67BBA21B724E2C00E40F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB67BBA41B724E2C00E40F09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB67BBA51B724E2C00E40F09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB67BBAD1B724E2C00E40F09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB67BBB01B724E2C00E40F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB67BBB61B724E2C00E40F09 /* VRSlidingPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRSlidingPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB67BBBB1B724E2C00E40F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB67BBBC1B724E2C00E40F09 /* VRSlidingPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRSlidingPickerTests.m; sourceTree = "<group>"; };
+		AB67BBDE1B725F8800E40F09 /* VRCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRCollectionViewCell.h; path = slidingCollectionView/VRCollectionViewCell.h; sourceTree = "<group>"; };
+		AB67BBDF1B725F8800E40F09 /* VRCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VRCollectionViewCell.m; path = slidingCollectionView/VRCollectionViewCell.m; sourceTree = "<group>"; };
+		AB67BBE01B725F8800E40F09 /* VRCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VRCollectionViewCell.xib; path = slidingCollectionView/VRCollectionViewCell.xib; sourceTree = "<group>"; };
+		AB67BBE31B725FD600E40F09 /* VRCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRCollectionView.h; path = slidingCollectionView/VRCollectionView.h; sourceTree = "<group>"; };
+		AB67BBE41B725FD600E40F09 /* VRCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VRCollectionView.m; path = slidingCollectionView/VRCollectionView.m; sourceTree = "<group>"; };
+		AB67BBE61B72600C00E40F09 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AB67BBE71B72600C00E40F09 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AB67BBE81B72600C00E40F09 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB67BB9A1B724E2C00E40F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB67BBB31B724E2C00E40F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB67BB941B724E2C00E40F09 = {
+			isa = PBXGroup;
+			children = (
+				AB67BB9F1B724E2C00E40F09 /* VRSlidingPicker */,
+				AB67BBB91B724E2C00E40F09 /* VRSlidingPickerTests */,
+				AB67BB9E1B724E2C00E40F09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB67BB9E1B724E2C00E40F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB67BB9D1B724E2C00E40F09 /* VRSlidingPicker.app */,
+				AB67BBB61B724E2C00E40F09 /* VRSlidingPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB67BB9F1B724E2C00E40F09 /* VRSlidingPicker */ = {
+			isa = PBXGroup;
+			children = (
+				AB67BBD51B725EF000E40F09 /* slidingCollectionView */,
+				AB67BBA41B724E2C00E40F09 /* AppDelegate.h */,
+				AB67BBA51B724E2C00E40F09 /* AppDelegate.m */,
+				AB67BBAD1B724E2C00E40F09 /* Images.xcassets */,
+				AB67BBAF1B724E2C00E40F09 /* LaunchScreen.xib */,
+				AB67BBA01B724E2C00E40F09 /* Supporting Files */,
+				AB67BBE61B72600C00E40F09 /* MainViewController.h */,
+				AB67BBE71B72600C00E40F09 /* MainViewController.m */,
+				AB67BBE81B72600C00E40F09 /* MainViewController.xib */,
+			);
+			path = VRSlidingPicker;
+			sourceTree = "<group>";
+		};
+		AB67BBA01B724E2C00E40F09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB67BBA11B724E2C00E40F09 /* Info.plist */,
+				AB67BBA21B724E2C00E40F09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB67BBB91B724E2C00E40F09 /* VRSlidingPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB67BBBC1B724E2C00E40F09 /* VRSlidingPickerTests.m */,
+				AB67BBBA1B724E2C00E40F09 /* Supporting Files */,
+			);
+			path = VRSlidingPickerTests;
+			sourceTree = "<group>";
+		};
+		AB67BBBA1B724E2C00E40F09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB67BBBB1B724E2C00E40F09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB67BBD51B725EF000E40F09 /* slidingCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AB67BBDE1B725F8800E40F09 /* VRCollectionViewCell.h */,
+				AB67BBDF1B725F8800E40F09 /* VRCollectionViewCell.m */,
+				AB67BBE01B725F8800E40F09 /* VRCollectionViewCell.xib */,
+				AB67BBE31B725FD600E40F09 /* VRCollectionView.h */,
+				AB67BBE41B725FD600E40F09 /* VRCollectionView.m */,
+			);
+			name = slidingCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB67BB9C1B724E2C00E40F09 /* VRSlidingPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB67BBC01B724E2C00E40F09 /* Build configuration list for PBXNativeTarget "VRSlidingPicker" */;
+			buildPhases = (
+				AB67BB991B724E2C00E40F09 /* Sources */,
+				AB67BB9A1B724E2C00E40F09 /* Frameworks */,
+				AB67BB9B1B724E2C00E40F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRSlidingPicker;
+			productName = VRSlidingPicker;
+			productReference = AB67BB9D1B724E2C00E40F09 /* VRSlidingPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB67BBB51B724E2C00E40F09 /* VRSlidingPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB67BBC31B724E2C00E40F09 /* Build configuration list for PBXNativeTarget "VRSlidingPickerTests" */;
+			buildPhases = (
+				AB67BBB21B724E2C00E40F09 /* Sources */,
+				AB67BBB31B724E2C00E40F09 /* Frameworks */,
+				AB67BBB41B724E2C00E40F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB67BBB81B724E2C00E40F09 /* PBXTargetDependency */,
+			);
+			name = VRSlidingPickerTests;
+			productName = VRSlidingPickerTests;
+			productReference = AB67BBB61B724E2C00E40F09 /* VRSlidingPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB67BB951B724E2C00E40F09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = VRCo;
+				TargetAttributes = {
+					AB67BB9C1B724E2C00E40F09 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					AB67BBB51B724E2C00E40F09 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AB67BB9C1B724E2C00E40F09;
+					};
+				};
+			};
+			buildConfigurationList = AB67BB981B724E2C00E40F09 /* Build configuration list for PBXProject "VRSlidingPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB67BB941B724E2C00E40F09;
+			productRefGroup = AB67BB9E1B724E2C00E40F09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB67BB9C1B724E2C00E40F09 /* VRSlidingPicker */,
+				AB67BBB51B724E2C00E40F09 /* VRSlidingPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB67BB9B1B724E2C00E40F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB67BBE21B725F8800E40F09 /* VRCollectionViewCell.xib in Resources */,
+				AB67BBB11B724E2C00E40F09 /* LaunchScreen.xib in Resources */,
+				AB67BBAE1B724E2C00E40F09 /* Images.xcassets in Resources */,
+				AB67BBEA1B72600C00E40F09 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB67BBB41B724E2C00E40F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB67BB991B724E2C00E40F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB67BBE11B725F8800E40F09 /* VRCollectionViewCell.m in Sources */,
+				AB67BBA61B724E2C00E40F09 /* AppDelegate.m in Sources */,
+				AB67BBE51B725FD600E40F09 /* VRCollectionView.m in Sources */,
+				AB67BBE91B72600C00E40F09 /* MainViewController.m in Sources */,
+				AB67BBA31B724E2C00E40F09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB67BBB21B724E2C00E40F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB67BBBD1B724E2C00E40F09 /* VRSlidingPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB67BBB81B724E2C00E40F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB67BB9C1B724E2C00E40F09 /* VRSlidingPicker */;
+			targetProxy = AB67BBB71B724E2C00E40F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB67BBAF1B724E2C00E40F09 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB67BBB01B724E2C00E40F09 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB67BBBE1B724E2C00E40F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB67BBBF1B724E2C00E40F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB67BBC11B724E2C00E40F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRSlidingPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB67BBC21B724E2C00E40F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRSlidingPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB67BBC41B724E2C00E40F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VRSlidingPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRSlidingPicker.app/VRSlidingPicker";
+			};
+			name = Debug;
+		};
+		AB67BBC51B724E2C00E40F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VRSlidingPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRSlidingPicker.app/VRSlidingPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB67BB981B724E2C00E40F09 /* Build configuration list for PBXProject "VRSlidingPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB67BBBE1B724E2C00E40F09 /* Debug */,
+				AB67BBBF1B724E2C00E40F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB67BBC01B724E2C00E40F09 /* Build configuration list for PBXNativeTarget "VRSlidingPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB67BBC11B724E2C00E40F09 /* Debug */,
+				AB67BBC21B724E2C00E40F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB67BBC31B724E2C00E40F09 /* Build configuration list for PBXNativeTarget "VRSlidingPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB67BBC41B724E2C00E40F09 /* Debug */,
+				AB67BBC51B724E2C00E40F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB67BB951B724E2C00E40F09 /* Project object */;
+}
